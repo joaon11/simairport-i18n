@@ -3,17 +3,17 @@
     <currency>$</currency>
     
     <!-- Top left buttons -->
-    <btn_help>Help</btn_help>
+    <btn_help>Ajuda</btn_help>
     <btn_menu>Menu</btn_menu>
-    <LoadingBar>Loading...</LoadingBar>
+    <LoadingBar>Carregando...</LoadingBar>
     
     <i18n>
-        <en>English</en>
-        <de>German</de>
-        <nl>Dutch</nl>
-        <fr>French</fr>
-        <zh>Chinese Simplified</zh>
-        <ru>Russian</ru>
+        <en>Inglês</en>
+        <de>Alemão</de>
+        <nl>Holandês</nl>
+        <fr>Francês</fr>
+        <zh>Chines Simplificado</zh>
+        <ru>Russo</ru>
         <cz>Czech</cz>
     </i18n>
     
@@ -29,21 +29,21 @@ Thank you for your support and thank you for helping us make SimAirport into the
         <mainmenu>
             <sharingbtn>Airport Sharing</sharingbtn>
             <modsbtn>Mods</modsbtn>
-            <optionsbtn>Options</optionsbtn>
+            <optionsbtn>Opções</optionsbtn>
             <exitbtn>Exit SimAirport</exitbtn>
             <copyright>Copyright 2018, LVGameDev LLC.  All rights reserved.  
 SimAirport is a trademark of LVGameDev LLC.</copyright>
         </mainmenu>
         <game>
             <new>
-                <title>Start New Game</title>
+                <title>Novo Jogo</title>
                 <mode>
-                    <title>Game Mode</title>
-                    <mode0>Sandbox Mode</mode0>
-                    <mode1>Career Mode</mode1>
+                    <title>Modo de jogo</title>
+                    <mode0>Modo Livre</mode0>
+                    <mode1>Modo Carreira</mode1>
                     <tt>
-                        <desc0>Choose Your Play Style</desc0>
-                        <desc1>Use your skills, try to turn a profit!</desc1>
+                        <desc0>Escolha o estilo de jogo</desc0>
+                        <desc1>Use suas habilidades, tente fazer lucro!</desc1>
                         <desc2>Cannot spend money when you have a negative balance</desc2>
                         <desc3>Bankrupt and game over if you have negative balance for 48 hours</desc3>
                         <desc4>Must begin on a Medium size map</desc4>
@@ -63,9 +63,9 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                     </tt1>
                 </size>
                 <difficulty>
-                    <title>Difficulty</title>
+                    <title>Dificuldade</title>
                     <option0>Normal</option0>
-                    <option1>Easy</option1>
+                    <option1>Fácil</option1>
                 </difficulty>
                 <tutorial>Tutorial</tutorial>
                 <blank>
@@ -76,17 +76,17 @@ SimAirport is a trademark of LVGameDev LLC.</copyright>
                 </blank>
             </new>
             <save>
-                <title>Save Game</title>
+                <title>Salvar jogo</title>
                 <save>Save</save>
                 <browse>Browse Saves Folder</browse>
-                <as>Save As...</as>
+                <as>Salvar como...</as>
                 <step1>
-                    <title>Saving...</title>
-                    <desc>Just a moment while we save your game...</desc>
+                    <title>Salvando...</title>
+                    <desc>Só um momento enquanto salvamos seu jogo...</desc>
                 </step1>
                 <step2>
                     <title>Saved!</title>
-                    <desc>Your game has been saved successfully.</desc>
+                    <desc>Seu jogo foi salvo com sucesso.</desc>
                 </step2>
                 <edgeBranchNotice>As a precautionary measure, file overwrite is prohibited on Edge releases of SimAirport. Please choose a unique name each time you save your game.</edgeBranchNotice>
                 <overwrite>Overwrite Existing Save Game?</overwrite>
@@ -371,7 +371,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
             <schedule>
                 <title>Master Flight Schedule</title>
                 <mode>Schedule Edit Mode:</mode>
-                <mode0>Flights</mode0>
+                <mode0>Voo</mode0>
                 <mode1>Standby Gates</mode1>
                 <new>New Flights ({0})</new>
                 <slots>Time Slots</slots>
@@ -379,10 +379,10 @@ This will permanently delete the selected game from your computer. Are you SURE 
             </schedule>
         </flightmgr>
         <flightstatus>
-            <title>Flight Status</title>
+            <title>Status do voo</title>
             <col0>Gate</col0>
-            <col1>Flight #</col1>
-            <col2>Aircraft</col2>
+            <col1>Voo #</col1>
+            <col2>Avião</col2>
             <col3>Arrival</col3>
             <col4>Depart.</col4>
             <col5>Actual Arrival</col5>
@@ -409,8 +409,8 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 <tools>Tools</tools>
                 <roads>Roads</roads>
                 <retail>Retail</retail>
-                <decor>Decor</decor>
-                <comfort>Comfort</comfort>
+                <decor>Decoração</decor>
+                <comfort>Conforto</comfort>
                 <ops note="Operations">Ops</ops>
                 <structures>Structures</structures>
                 <runwayupgrades>Runway Upgrades</runwayupgrades>
@@ -445,7 +445,7 @@ This will permanently delete the selected game from your computer. Are you SURE 
                 </cashflow>
                 <valuation>
                     <title>Airport Value</title>
-                    <value>Current Value</value>
+                    <value>Valor Atual</value>
                     <total>Total Airport Valuation</total>
                 </valuation>
             </tabs>
